@@ -3,14 +3,14 @@ form {
 }
 
 fieldset {
-	width:15rem;
+	width:25rem;
 	border: 0.3rem solid lightblue;
 	border-radius: 0.75rem;
 	box-shadow: 1.25rem 1.25rem 1.25rem 0.25rem rgba(0,0,0,0.84);
 }
 
 legend	{
-	margin-left: 6.5rem;
+	margin-left: 10.5rem;
 	border: 0.125rem solid lightblue;
 }
 
@@ -22,12 +22,11 @@ label {
 }
 
 input {
-	width: 6rem;
+	width: 7rem;
 }
 
 #verificar{
 	width:100px;
-	hei
 }
 
 #verificar:hover{
