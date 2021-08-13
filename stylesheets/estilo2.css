@@ -17,7 +17,7 @@ legend	{
 label {
 	/*display: inline-block;*/
 	text-align: left;
-	width: 6rem;
+	width: 16rem;
 	margin: 0.25rem;
 }
 
@@ -48,7 +48,7 @@ input {
 .links a{
   display: inline-block;
   background: #1C6EA4;
-  color: #FFFFFF;
+  color: white;
   padding: 2px 8px;
   border-radius: 5px;
 
