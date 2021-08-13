@@ -1,0 +1,55 @@
+form {
+	margin: 2rem;
+}
+
+fieldset {
+	width:20rem;
+	border: 0.3rem solid lightblue;
+	border-radius: 0.75rem;
+	box-shadow: 1.25rem 1.25rem 1.25rem 0.25rem rgba(0,0,0,0.84);
+}
+
+legend	{
+	margin-left: 6.5rem;
+	border: 0.125rem solid lightblue;
+}
+
+label {
+	display: inline-block;
+	text-align: left;
+	width: 6rem;
+	margin: 0.25rem;
+}
+
+input {
+	width: 13rem;
+}
+
+#verificar{
+	width:100px;
+	hei
+}
+
+#verificar:hover{
+	background: green;
+}
+
+.three-column {
+	margin: 1rem;
+	border: 0.25rem solid blue;
+	padding: 1em;
+	column-count: 3;
+	column-gap: 2em;
+}
+
+.links {
+	margin: 40px;
+}
+
+.links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+
