@@ -15,7 +15,7 @@ legend	{
 }
 
 label {
-	display: inline-block;
+	/*display: inline-block;*/
 	text-align: left;
 	width: 6rem;
 	margin: 0.25rem;
