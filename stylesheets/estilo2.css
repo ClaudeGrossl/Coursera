@@ -3,7 +3,7 @@ form {
 }
 
 fieldset {
-	width:15rem;
+	width:25rem;
 	border: 0.3rem solid lightblue;
 	border-radius: 0.75rem;
 	box-shadow: 1.25rem 1.25rem 1.25rem 0.25rem rgba(0,0,0,0.84);
@@ -22,7 +22,7 @@ label {
 }
 
 input {
-	width: 7rem;
+	width: 10rem;
 }
 
 #verificar{
