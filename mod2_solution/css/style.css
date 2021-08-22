@@ -5,12 +5,13 @@
 h1 {
   margin-bottom: 15px;
   text-align: center;
+  color: red;
 }
 
 p {
-  border: 1px solid black;
+  border: 1% solid black;
   background-color: #A52A2A;
-  width: 90%;
+  width: 30%;
   height: 150px;
   margin-right: auto;
   margin-left: auto;
@@ -18,7 +19,7 @@ p {
   color: white;
 }
 
-/* Simple Responsive Framework. */
+/* Responsive Framework. */
 .row {
   width: 100%;
 }
@@ -40,6 +41,7 @@ p {
   }
   .col-lg-4 {
     width: 33.33%;
+    padding: 10%;
   }
   .col-lg-5 {
     width: 41.66%;
