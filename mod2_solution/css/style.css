@@ -9,14 +9,15 @@ h1 {
 }
 
 p {
-  border: 1% solid black;
-  background-color: #A52A2A;
+  border: 3% solid black;
+  background-color: blue;
   width: 30%;
   /*height: 150px;*/
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
   color: white;
+  float: top right;
 }
 
 /* Responsive Framework. */
