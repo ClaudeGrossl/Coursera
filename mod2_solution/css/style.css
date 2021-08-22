@@ -12,7 +12,7 @@ p {
   border: 1% solid black;
   background-color: #A52A2A;
   width: 30%;
-  height: 150px;
+  /*height: 150px;*/
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
@@ -41,7 +41,7 @@ p {
   }
   .col-lg-4 {
     width: 33.33%;
-    padding: 1%;
+    /*padding: 1%;*/
   }
   .col-lg-5 {
     width: 41.66%;
