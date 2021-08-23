@@ -6,7 +6,7 @@
     font-family: Arial Rounded MT, Arial, Tahoma, sans-serif;
     background-color: #aaaaaa;
     font-size: 16px;
-}
+ }
 
   h1 {
     margin-top: 70px;
@@ -14,7 +14,7 @@
     text-align: center;
     color: red;
     font-size: 175%;
-  }
+}
 
   section {
       background-color: white;
@@ -23,17 +23,18 @@
       border-radius: 7px;
       font-size: 125%;
       padding: 35px 15px 20px 15px;
-      
-  }
+}
   
   
   
   /* Responsive Framework. */
+
   .row {
     width: 100%;
   }
   
   /********** Large devices **********/
+
   @media (min-width: 991px) {
     
     .col-lg {
@@ -43,6 +44,7 @@
   }
   
   /********** Medium devices **********/
+
   @media (min-width: 768px) and (max-width: 990px) {
     
     .col-md {
@@ -56,6 +58,7 @@
   }
 
   /********** Small devices **********/
+
   @media (max-width: 767px) {
     
     .col-sm {
