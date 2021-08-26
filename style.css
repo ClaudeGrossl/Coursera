@@ -5,9 +5,19 @@
 
 body {
     width: 100%;
+    background-color: #aaa;
 }
 
 li {
   display: inline-block;
+}
+footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 100px;
+	width: 100%;
+	color: #fff;
+	background-color: #009688;
 }
 
