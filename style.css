@@ -8,9 +8,13 @@ body {
     background-color: #aaa;
 }
 
+ul {
+  display: block;
+	
 li {
   display: inline-block;
 }
+
 footer{
 	position: fixed;
 	left: 0;
