@@ -1,8 +1,3 @@
-window.onload = function() {
- 
-    alert( "welcome" );
- 
-};
  
 $( document ).ready(function() {
     $( "a" ).click(function( event ) {
