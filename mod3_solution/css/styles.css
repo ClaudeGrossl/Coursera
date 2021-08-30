@@ -1,4 +1,4 @@
-.row {
+.row > div {
     border: 0.125rem solid red;
     background-color: gray;
 }
