@@ -8,3 +8,10 @@ body {
     border-radius: 0;
     background-color: tomato;
 }
+
+#logo-img {
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+    background: url("../smiley.png") no-repeat;
+}
