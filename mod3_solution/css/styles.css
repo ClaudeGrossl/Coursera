@@ -13,7 +13,7 @@ body {
     width: 150px;
     height: 150px;
     margin: 10px 15px 10px 0;
-    background: url("../images/favicon.png") no-repeat;
+    background: url("../images/favicon.png") 150px 150px no-repeat;
 }
 
 navbar-brand {
