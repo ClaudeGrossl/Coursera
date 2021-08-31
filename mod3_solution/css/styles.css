@@ -47,3 +47,7 @@ navbar-brand {
   .navbar-brand p span { /* Star-K */
     vertical-align: middle;
   }
+
+  [src="images/star.png"]{
+      size: 25px;
+  }
