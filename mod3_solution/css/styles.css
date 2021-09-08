@@ -12,11 +12,16 @@ body {
   border: 0;
 }
 
+[src|=images/star]{
+  size: 20px;
+}
+
 #logo-img {
   background: url('../images/favicon.png') no-repeat;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
+  size: 148px;
 }
 
 .navbar-brand {
