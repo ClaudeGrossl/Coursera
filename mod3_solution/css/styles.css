@@ -13,7 +13,7 @@ body {
 }
 
 [src|=images/star]{
-  size: 20px;
+  image-size: 20px;
 }
 
 #logo-img {
