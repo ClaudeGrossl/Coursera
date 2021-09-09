@@ -12,15 +12,16 @@ body {
   border: 0;
 }
 
-
+[src="images/smiley.png"]{
+  width: 20px;
+}
 
 
 #logo-img {
-  background: url('../images/favicon.png') no-repeat;
+  background: url('../images/favicon.png') no-repeat center;
   width: 150px;
   height: 150px;
   margin: 10px 15px 10px 0;
-  background-size: 148px;
 }
 
 .navbar-brand {
