@@ -12,10 +12,10 @@ body {
   border: 0;
 }
 
-[src|=images/star]{
+[src=images/star.png]{
   background-size: 18px;
 }
-}
+
 
 #logo-img {
   background: url('../images/favicon.png') no-repeat;
