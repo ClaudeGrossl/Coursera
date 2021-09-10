@@ -23,9 +23,9 @@
     font-family: 'Alfa Slab One';
     font-size: 1.5em;
     color: black;   
-    margin-top: 0;
-    margin-left: 15px;
-    margin-bottom: 0;
+//    margin-top: 0;
+//    margin-left: 15px;
+//    margin-bottom: 0;
 }
 
 .text-center {
@@ -61,8 +61,8 @@
     background-color: #AEAE52;   
 }
 
-.navbar-default .navbar-collapse {
-	margin-top:0px;
-	border: 0px;
-	list-style-type: none;
-}  
+//.navbar-default .navbar-collapse {
+//	margin-top:0px;
+//	border: 0px;
+//	list-style-type: none;
+//}  
