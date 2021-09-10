@@ -21,10 +21,9 @@ body{
 
 h2{
 	text-align: center;
+	padding: 25px;
 }
-#myNavbar ul li a {
-	color: #61122F;
-}
+
 .navbar-brand{
 font-size: 30px;	
 }
