@@ -1,8 +1,4 @@
-*{
-	margin: 0;
-	padding: 0;
-	
-}
+
 .navbar{
 border: none;
 background-color: navy;
@@ -13,22 +9,15 @@ body{
 	color: saddlebrown;
 }
 .glyphicon{
-	font-size: 30px;
+	font-size: 25px;
 	color: aquamarine; 
 }
 
-.center{
-	width: 90%;
-	background-color: grey;
-
-}
 .container
 {
 	background-color: grey;
 }
-.text-center{
-	font-size: 30px;
-}
+
 
 h2{
 	text-align: center;
@@ -39,3 +28,16 @@ h2{
 .navbar-brand{
 font-size: 30px;	
 }
+/**{
+	margin: 0;
+	padding: 0;
+	
+}
+.center{
+	width: 90%;
+	background-color: grey;
+
+}
+.text-center{
+	font-size: 30px;
+}*/
