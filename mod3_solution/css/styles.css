@@ -5,8 +5,8 @@
 }
 .navbar{
 border: none;
-background-color: black;
-color: #61122F;
+background-color: navy;
+color: orange;
 }
 body{
 	background-color: #61122F;
@@ -14,7 +14,7 @@ body{
 }
 .glyphicon{
 	font-size: 30px;
-	color:#61122F; 
+	color: aquamarine; 
 }
 
 .center{
