@@ -50,12 +50,12 @@ body {
 
 #nav-list a {
     font-weight: bolder;
-    color: #282828;
-    font-size: 1.2em;
+    color: #000;
+    font-size: 1.5em;
 }
 
 #nav-list a:hover {
-    color: #202020;
+    color: black;
     background-color: lightblue;
 }
 
