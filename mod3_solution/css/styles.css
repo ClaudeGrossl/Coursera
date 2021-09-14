@@ -8,6 +8,10 @@ body {
 
 /*HEADER*/
 
+.navbar-nav > li > a {
+    color: white;
+}
+
 #header-nav {
     background-color: #153fc9;
     border-radius: 0;
