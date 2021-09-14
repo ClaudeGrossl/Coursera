@@ -33,10 +33,10 @@ body {
 }
 
 .navbar-brand h1 {
-    color: #0b6932;
+    color: navy;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
-    font-size: 1.8rem;
+    font-size: 3rem;
 }
 
 .navbar-brand a:hover {
