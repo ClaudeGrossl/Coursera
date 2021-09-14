@@ -89,4 +89,5 @@ body {
     background-color: palegreen;
     margin-bottom: 60px;
     box-shadow: darkgreen 0 0 80px;
+    border-radius: 20px;
 }
