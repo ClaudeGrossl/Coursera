@@ -1,0 +1,101 @@
+body {
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    background-color: transparent;
+}
+
+
+/*HEADER*/
+
+.navbar-nav > li > a {
+    color: white;
+}
+
+#header-nav {
+    background-color: #153fc9;
+    border-radius: 0;
+    border: 0;
+}
+
+#header-nav button {
+    margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: lightblue;
+}
+
+.navbar-collapse {
+    border-top: 0;
+}
+
+.navbar-brand, .navbar-nav li a {
+    line-height: 80px;
+    height: 80px;
+    padding-top: 0;
+}
+
+.navbar-brand h1 {
+    color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.navbar-brand a:hover {
+    text-decoration: none;
+    text-shadow: 1px 1px 1px lightblue;
+}
+
+#nav-list {
+    background-color: navy;
+}
+
+#nav-list a {
+    font-weight: bolder;
+    color: beige;
+    font-size: 2.5rem;
+}
+
+#nav-list a:hover {
+    color: black;
+    background-color: lightblue;
+}
+
+
+button.navbar-toggle{
+    width: 50px;
+    height: 30px;
+    padding: 0;
+    border: 2px solid lightcyan;
+}
+
+/*PAGE*/
+
+#main-content {
+    width: 92%;
+    margin-bottom: 30px;
+}
+
+#main-content h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#main-content h3 {
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+#chicken, #beef, #sushi {
+    width: 100%;
+    padding: 20px;
+    background-color: palegreen;
+    margin-bottom: 60px;
+    box-shadow: darkgreen 0 0 80px;
+    border-radius: 20px;
+}
