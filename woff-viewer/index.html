@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Woff Viewer</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header>
+    <h1>Woff Webfont Viewer
+    </h1>
+    <p class="finePrint">Viewable on modern browsers</p>
+    <p class="finePrint">By <a href="https://github.com/tmroyal/woff-viewer" target="_blank">Thomas Royal</a></p>
+
+    <div id="dropArea">
+      <div id="dropAreaUI">
+        <p>Drag/Drop .woff file</p>
+        <input type="file" name="fileDiag" accept=".woff,.woff2">
+
+        <p id="loadedFont">Loaded Font: Arial</p>
+      </div>
+    </div> 
+  </header>
+
+  <main>
+
+    <div id="searchComponent">
+      <ul>
+        <li id="unicodeRangeMenuFunc" class="selected">Filter By Unicode Range</li>
+        <li id="unicodeNameMenuFunc">Search By Unicode Name</li>
+      </ul>
+
+      <div id="rangeSelector">
+        <input name="rangeSelectorSearch" type="text" disabled value="" placeholder="Search Unicode Range"></input>
+        <select name="rangeSelector"></select>
+      </div>
+
+      <div id="nameSearch" class="hidden">
+        <input name="nameSearch" type="text" disabled placeholder="Search Glyph Name"></input>
+      </div>
+    </div>
+
+    <div id="glyphContainer">
+    </div>
+
+    <div class="glyphDisplayBox" id="glyphTemplate">
+      <div class="glyphDisplay">
+      </div>
+      <div class="codeDisplay"></div>
+      <div class="glyphTitleDisplay"></div>
+    </div>
+  </main>
+  <nav class="hidden" id="backToTop">
+    <span id="backToTopLink">
+      &#9650; Back to top
+    </span>
+  </nav>
+  <script src="woffViewer.js"></script>
+</body>
+</html>

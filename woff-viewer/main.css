@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+  padding-top: 2%;
+  background: rgb(83, 93, 114);
+}
+
+main {
+  width: 100%;
+}
+
+.finePrint {
+  font-size: 80%;
+}
+
+header {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2% 5% 3%;
+  border: 1px solid rgb(180, 191, 209);
+  background-color: rgb(216, 225, 240);
+  border-bottom: 4px solid rgb(180,191,209);
+  box-shadow: 3px 3px 5px rgba(8,8,15, 0.1);
+}
+
+header h1 {
+  font-weight: 100;
+}
+
+#dropArea {
+  padding: 5% 0;
+  border: 1px dashed black;
+  margin-top: 2%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 4px rgba(8,8,15, 0.9);
+}
+
+#dropAreaUI {
+  text-align: left;
+  width: 30%;
+  margin: 0 auto;
+}
+
+#dropAreaUI #loadedFont {
+  padding-top: 1em;
+}
+
+#dropAreaUI > * {
+  padding: 0.1em;
+}
+
+#loadedFont {
+  font-size: 120%;
+}
+
+
+#searchComponent {
+  width: 60%;
+  margin: 1em auto;
+  text-align: center;
+  box-shadow: 3px 3px 5px rgba(8,8,15, 0.1);
+  background-color: rgb(216, 225, 240);
+  padding: 0.5em 5% 1.5em;
+}
+
+
+#searchComponent ul {
+  list-style: none;
+}
+
+#searchComponent li {
+  display: inline-block;
+  background-color: rgb(255,255,255);
+  margin: 1em 0;
+  padding: 1em;
+  font-weight: 100;
+  box-shadow: 2px 2px 4px rgb(0,0,0,0.1);
+}
+
+#searchComponent li:hover, #searchComponent li:focus {
+  background-color: rgb(211, 226, 255);
+  cursor: pointer;
+}
+
+#searchComponent li.selected {
+ background-color: rgb(58, 73, 116);
+ color: white;
+}
+
+input[name="rangeSelectorSearch"], input[name="nameSearch"]{
+  background: white;
+  font-size: 105%;
+  padding: 0.2em;
+  border: 2px solid rgb(160, 178, 212);
+}
+
+select[name="rangeSelector"]{
+  font-size: 105%;
+  padding: 0.2em;
+  width: 40%;
+}
+
+#glyphContainer {
+  width: 60%;
+  margin: 0 auto;
+  padding: 2% 5% 3%;
+  border: 1px solid rgb(180, 191, 209);
+  background-color: rgb(216, 225, 240);
+  border-bottom: 4px solid rgb(180,191,209);
+  box-shadow: 3px 3px 5px rgba(8,8,15, 0.1);
+}
+
+.glyphDisplayBox {
+  display: inline-block;
+  padding: 1em;
+  width: 15%;
+  min-height: 10em;
+  margin: 0.2em;
+  background-color: white;
+  box-shadow: 2px 2px 4px rgb(0,0,0,0.5);
+  border-left: 1px solid lightgrey;
+  vertical-align: bottom;
+}
+
+.glyphDisplay {
+  font-family: loadedFont, sans-serif;
+  font-size: 32pt;
+  min-height: 60pt;
+}
+
+.glyphTitleDisplay {
+  font-family: Arial, sans-serif;
+  font-size: 10pt;
+  color: grey;
+  font-weight: 100;
+  min-height: 25pt;
+  vertical-align: text-bottom;
+}
+
+.codeDisplay {
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+  text-decoration: underline;
+  color: slategrey;
+
+}
+
+#glyphTemplate {
+  display: none;
+}
+
+
+nav#backToTop {
+  background-color: rgba(255,255,255,0.2);
+  position: fixed;
+  bottom: 2em;
+  left: 3em;
+  padding: 1em 1.5em;
+}
+
+nav#backToTop:hover {
+  background-color: rgba(255,255,255,0.9);
+}
+
+nav#backToTop > span {
+  text-decoration: none;
+  border-bottom: 1px grey dashed;
+  color: rgba(0,0,0,0.6);
+}
+
+nav#backToTop:hover > span {
+  color: rgba(0,0,0,0.9);
+}
+
+.hidden {
+  display: none;
+}
