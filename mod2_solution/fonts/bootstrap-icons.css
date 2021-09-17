@@ -467,7 +467,7 @@
 .bi-cloud-sun::before { content: "\f2be"; }
 .bi-cloud-upload-fill::before { content: "\f2bf"; }
 .bi-cloud-upload::before { content: "\f2c0"; }
-.bi-cloud::before { content: "\2601"; }
+.bi-cloud::before { content: "\f2c1"; }
 .bi-clouds-fill::before { content: "\f2c2"; }
 .bi-clouds::before { content: "\f2c3"; }
 .bi-cloudy-fill::before { content: "\f2c4"; }
