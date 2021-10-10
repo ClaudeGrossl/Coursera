@@ -165,7 +165,7 @@ i{
     margin-bottom: 6rem;
   }
   
-  .project {
+  .sgv {
     background: #2e3236;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     border-radius: 2px;
@@ -178,7 +178,7 @@ i{
     transition: color 0.3s ease-out;
   }
   
-  .project:hover .code {
+  .sgv:hover .code {
     color: #ff7f50;
   }
   
