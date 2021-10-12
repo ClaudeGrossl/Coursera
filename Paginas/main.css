@@ -82,6 +82,19 @@ footer i {
 i{
   padding-right: 0.5rem;
 }
+
+#html{
+  background: rgb(39, 143, 129);
+}
+
+#svg{
+  background: rgb(219, 103, 216);
+}
+
+#css{
+  background: rgb(81, 219, 201)
+}
+
 .Paneltheme{
     height: 40px;
     background: transparent none repeat scroll 0% 0%;
