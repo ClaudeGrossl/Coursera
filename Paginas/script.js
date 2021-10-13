@@ -5,7 +5,7 @@ function newScript() {
   x.appendChild(t);
   document.body.appendChild(x);
 }
-function newScript() {
+function newParagrafo() {
     var x = document.createElement("p");
     var t = document.createTextNode("Novo paragrafo!");
     x.appendChild(t);
