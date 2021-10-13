@@ -6,7 +6,7 @@ function newScript() {
   document.body.appendChild(x);
 }
 function newParagrafo() {
-    var x = document.createElement("p");
+    var x = document.createElement("P");
     var t = document.createTextNode("Novo paragrafo!");
     x.appendChild(t);
     document.body.appendChild(x);
@@ -14,7 +14,7 @@ function newParagrafo() {
 function addElemento () {
     // cria um novo elemento div
     // e dá à ele conteúdo
-    var divNova = document.createElement("div");
+    var divNova = document.createElement("DIV");
     var conteudoNovo = document.createTextNode("Nova div!");
     divNova.appendChild(conteudoNovo); //adiciona o nó de texto à nova div criada
   
