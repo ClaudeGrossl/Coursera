@@ -25,6 +25,7 @@ body {
   font-weight: 400;
   line-height: 1.4;
   color: whitesmoke;
+  overflow: hidden;
 }
 
 h1, h2 {
