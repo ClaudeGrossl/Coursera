@@ -177,7 +177,7 @@ i{
   }
   
 
-  .projects-grid {
+  .div-geral {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 4rem;
@@ -286,7 +286,7 @@ i{
       padding: 6rem 1rem;
     }
   
-    .projects-grid {
+    .div-geral {
       grid-template-columns: 1fr;
       
     }
