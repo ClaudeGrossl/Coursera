@@ -1,4 +1,4 @@
-{
+
 const display27610 = document.getElementById("display");
 
 // conver number num to string, pad 0 in front to make it 2 digits
@@ -13,7 +13,7 @@ const updateDisplay = (() => {
 });
 
 setInterval(updateDisplay, 1000);
-}
+
 
 
 function newScript() {
