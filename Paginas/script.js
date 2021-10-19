@@ -1,5 +1,5 @@
 {
-const display27610 = document.getElementById("display27610");
+const display27610 = document.getElementById("display");
 
 // conver number num to string, pad 0 in front to make it 2 digits
 const padNum = ((num) => num.toString(). padStart (2 , "0"));
