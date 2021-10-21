@@ -12,7 +12,7 @@ const updateDisplay = (() => {
     display27610.textContent = `${padNum(hh)}:${padNum(mm)}:${padNum(ss)}`;
 });
 
-setInterval(updateDisplay, 1000);
+//setInterval(updateDisplay, 1000);
 }
 
 
