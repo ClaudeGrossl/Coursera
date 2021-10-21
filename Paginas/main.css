@@ -71,6 +71,11 @@ footer i {
     width: 20%;
 }
 
+#display27610{
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 #html{
   background: rgb(39, 143, 129);
 }
